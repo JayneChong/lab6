@@ -11,7 +11,7 @@ $(document).ready(function() {
 function initializePage() {
 	$('.project a').click(addProjectDetails);
 
-	$('#colorBtn').click(randomizeColors);
+	// $('#colorBtn').click(randomizeColors);
 }
 
 /*
@@ -28,3 +28,7 @@ function addProjectDetails(e) {
 
 	console.log("User clicked on project " + idNumber);
 }
+
+$("#testjs").click(fcuntion(e){
+	$.get("/project/random", addProject);
+})
